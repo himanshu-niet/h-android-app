@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyPhone"
+    android:background="#AAC76F"
+    android:orientation="vertical">
+
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="20dp"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logo"
+                    android:elevation="12dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="20dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Phone"
+                        android:fontFamily="@font/homians_font_eb"
+                        android:textSize="36dp"
+                        android:letterSpacing="0.02"
+                        android:textColor="#000000"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Verification"
+                        android:fontFamily="@font/homians_font_eb"
+                        android:textSize="36dp"
+                        android:letterSpacing="0.02"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginHorizontal="20dp">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_white"
+
+                            android:textSize="16dp"
+                            android:text="+91"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:fontFamily="@font/homians_font_eb"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginRight="13dp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="15dp"
+                            android:enabled="false"
+                            android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"
+                            />
+                        <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_white"
+                        android:padding="15dp"
+                        android:textSize="16dp"
+                        android:hint="Phone Number"
+                            android:maxLength="10"
+
+                        android:textColorHint="#000000"
+                        android:inputType="number"
+                        android:lineSpacingExtra="-8sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/homians_font"
+                        android:layout_marginTop="9dp"
+                        />
+
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="If you sign up, Terms &amp; Conditions and Privacy policy apply."
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:layout_marginTop="100dp"
+
+                    android:fontFamily="@font/homians_font"
+                    android:textColor="#000000"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Continue"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/homians_font"
+                    android:background="@drawable/rounded_white"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+
+                    android:onClick="signup" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+    </LinearLayout>
+

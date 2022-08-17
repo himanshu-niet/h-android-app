@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ProfileSetting"
+        >
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/green_light"
+
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_white_circle"
+                android:padding="8dp"
+                android:src="@drawable/ic_baseline_arrow_back_24" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/homians_font_eb"
+                android:text="Profile Settings"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/profile"
+            android:layout_below="@id/l1"
+            android:layout_height="100dp">
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l1"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="144dp"
+                android:layout_height="144dp"
+                android:src="@drawable/p" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_image"
+                android:layout_marginLeft="-55dp"
+                android:layout_marginTop="-25dp"
+                android:layout_toRightOf="@id/profile_image"
+                android:background="@drawable/stroke_white_circle"
+                android:padding="5dp"
+                android:src="@drawable/ic_baseline_edit_24" />
+
+        </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/l2"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/rounded_white"
+                android:fontFamily="@font/homians_font"
+                android:hint="Himanshu"
+                android:lineSpacingExtra="-8sp"
+                android:padding="15dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/rounded_white"
+                android:fontFamily="@font/homians_font"
+                android:hint="Male female"
+
+                android:lineSpacingExtra="-8sp"
+                android:padding="15dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/rounded_white"
+                android:fontFamily="@font/homians_font"
+                android:hint="Address"
+                android:lineSpacingExtra="-8sp"
+                android:padding="15dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/rounded_white"
+                android:fontFamily="@font/homians_font"
+                android:hint="City"
+                android:lineSpacingExtra="-8sp"
+                android:padding="15dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/rounded_white"
+                android:fontFamily="@font/homians_font"
+                android:hint="Himanshu"
+                android:lineSpacingExtra="-8sp"
+                android:padding="15dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/rounded_white"
+                android:fontFamily="@font/homians_font"
+                android:hint="State"
+                android:lineSpacingExtra="-8sp"
+                android:padding="15dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_green"
+                android:fontFamily="@font/homians_font_eb"
+                android:text="Update"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    </RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="5dp">
+
+
+<androidx.cardview.widget.CardView
+
+    android:layout_width="160dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="15dp"
+    android:layout_margin="5dp"
+        android:elevation="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:orientation="vertical"
+                android:background="@drawable/kit"
+                android:id="@+id/kit_img">
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="vertical"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingHorizontal="5dp"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vijay Singh"
+                        android:fontFamily="@font/homians_font_eb"
+                        android:id="@+id/kit_name"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="* 4.3"
+                        android:gravity="right"
+                        android:textSize="11dp"
+                        android:layout_marginRight="5dp"
+                        android:fontFamily="@font/homians_font"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:paddingHorizontal="5dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Beta Kitchen"
+                        android:textSize="14dp"
+                        android:fontFamily="@font/homians_font"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15-20 Min"
+                        android:textSize="11dp"
+                        android:gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:fontFamily="@font/homians_font"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
