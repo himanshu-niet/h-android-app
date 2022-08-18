@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white_bg"
+    app:cardCornerRadius="25dp"
+    android:elevation="20dp"
+    android:layout_margin="12dp"
+    android:layout_gravity="center"
+
+    >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        >
+        <TextView
+            android:id="@+id/notification_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is Lorem Ipsum?"
+            android:textSize="13dp"
+            android:layout_weight="5"
+            android:fontFamily="@font/homians_font_eb"
+            />
+
+        <TextView
+            android:id="@+id/notification_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18/08/2022"
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:textSize="13dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/homians_font_eb" />
+    </LinearLayout>
+        <TextView
+            android:id="@+id/notification_desc"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/homians_font"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."/>
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

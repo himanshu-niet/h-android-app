@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.startup.homians.ui.dashboard.DashboardFragment"
+        android:name="com.startup.homians.ui.wishlist.WishlistFragment"
         android:label="Wishlist"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.startup.homians.ui.notifications.NotificationsFragment"
+        android:name="com.startup.homians.ui.history.HistoryFragment"
         android:label="History"
         tools:layout="@layout/fragment_notifications" />
 

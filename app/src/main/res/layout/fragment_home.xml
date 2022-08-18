@@ -30,6 +30,7 @@
 
                 android:src="@drawable/ic_baseline_location_on_24" />
             <TextView
+                android:id="@+id/location_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Location"
@@ -62,18 +63,21 @@
                 android:layout_weight="1"
                  />
             <ImageView
+                android:id="@+id/search_btn"
                 android:layout_width="23dp"
                 android:layout_height="23dp"
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:src="@drawable/search" />
             <ImageView
+                android:id="@+id/cart_btn"
                 android:layout_width="23dp"
                 android:layout_height="23dp"
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:src="@drawable/bag" />
             <ImageView
+                android:id="@+id/notification_btn"
                 android:layout_width="23dp"
                 android:layout_height="23dp"
                 android:layout_marginLeft="10dp"

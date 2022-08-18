@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".VerifyPhone"
-    android:background="#AAC76F"
+    android:background="@color/green_light"
     android:orientation="vertical">
 
 

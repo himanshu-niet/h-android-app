@@ -35,6 +35,7 @@
         <entry key="..\:/Android/app/src/main/res/layout/activity_help_center.xml" value="0.33" />
         <entry key="..\:/Android/app/src/main/res/layout/activity_intro_page.xml" value="0.22" />
         <entry key="..\:/Android/app/src/main/res/layout/activity_location.xml" value="0.1296875" />
+        <entry key="..\:/Android/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/Android/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Android/app/src/main/res/layout/activity_main2.xml" value="0.22" />
         <entry key="..\:/Android/app/src/main/res/layout/activity_notification.xml" value="0.1296875" />
@@ -51,10 +52,12 @@
         <entry key="..\:/Android/app/src/main/res/layout/fragment_f_a_qs.xml" value="0.1296875" />
         <entry key="..\:/Android/app/src/main/res/layout/fragment_f_a_qs2.xml" value="0.1" />
         <entry key="..\:/Android/app/src/main/res/layout/fragment_help_center.xml" value="0.19010416666666666" />
-        <entry key="..\:/Android/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Android/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Android/app/src/main/res/layout/fragment_notifications.xml" value="0.20416666666666666" />
         <entry key="..\:/Android/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Android/app/src/main/res/layout/fragment_wishlists.xml" value="0.20416666666666666" />
         <entry key="..\:/Android/app/src/main/res/layout/kitchen_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/app/src/main/res/layout/notificaton_item.xml" value="0.25" />
         <entry key="..\:/Android/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
       </map>
     </option>

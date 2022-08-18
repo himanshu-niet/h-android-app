@@ -1,12 +1,18 @@
 package com.startup.homians
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.AdapterView
 import android.widget.GridView
 import android.widget.Toast
 import com.startup.homians.Adapter.CategoryGridAdapter
 import com.startup.homians.Adapter.KitchenGridAdapter
+import com.startup.homians.comon.Cart
+import com.startup.homians.comon.Location
+import com.startup.homians.comon.Notification
+import com.startup.homians.comon.Search
 
 class All_Category : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,5 +51,22 @@ class All_Category : AppCompatActivity() {
                 Toast.LENGTH_SHORT
             ).show()
         }
+    }
+
+    fun location_btn(view: View) {
+        val intent = Intent(this, Location::class.java)
+        startActivity(intent)
+    }
+    fun search_btn(view: View) {
+        val intent = Intent(this, Search::class.java)
+        startActivity(intent)
+    }
+    fun cart_btn(view: View) {
+        val intent = Intent(this, Cart::class.java)
+        startActivity(intent)
+    }
+    fun notification_btn(view: View) {
+        val intent = Intent(this, Notification::class.java)
+        startActivity(intent)
     }
 }

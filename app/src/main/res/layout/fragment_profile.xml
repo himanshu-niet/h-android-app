@@ -341,6 +341,7 @@
             android:padding="10dp"
             >
             <LinearLayout
+                android:id="@+id/help_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -416,7 +417,7 @@
                 android:padding="8dp"
                 android:weightSum="3"
                 android:layout_gravity="center"
-                android:id="@+id/help_center"
+                android:id="@+id/policy"
                 >
                 <LinearLayout
                     android:layout_width="wrap_content"
